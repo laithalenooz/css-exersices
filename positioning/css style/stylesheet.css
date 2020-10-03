@@ -1,0 +1,16 @@
+#odd{
+    display: none;
+}
+
+#two{
+    visibility: hidden;
+}
+
+li{
+    display:inline;
+    color: white;
+    padding: 0 3em;
+    border: solid red;
+    text-align: center;
+    background-color: purple;
+}

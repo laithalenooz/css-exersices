@@ -1,1 +1,22 @@
-/* this is for you to complete */
+    ul li ul li ul li{
+        list-style-type: none;
+    }
+    
+    ul li:first-child{
+        font-weight: bold;
+    }
+    ul li ul li:first-child{
+        font-weight: bold;
+        color: blue;
+    }
+
+    ul a:link{
+        color: red;
+    }
+
+    div a:link{
+        color: green;
+    }
+    div:nth-child(2) p a{
+        background-color: yellow;
+    }

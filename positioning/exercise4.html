@@ -4,30 +4,59 @@
     <meta charset="UTF-8">
     <title>Exercise #4: Layout</title>
     <style>
+        body{
+            position: absolute;
+            left: 30px;
+            top: 30px;
+            min-width: 600px;
+            max-width: 960px;
+            background-color: #ffffcc;
+            align-items: center;
+            justify-content:center;
+            flex-direction:column;
+        }
         * {
+            
             margin: 0px;
+            
         }
 
         header {
             background-color: #ebde52;
             height: 80px;
+            width: 80%;
         }
 
         nav {
+            background-color: #e3e3e3;
             width: 20%;
+            height: auto;
+            right: 200px;
             padding-top: 20px;
+            float: right;
         }
 
         main {
+            background-color: white;
             position: absolute;
             top: 80px; /* same as the height of header */
-            left: 20%; /* same as the width of nav */
+            right: 20%; /* same as the width of nav */
             width: 80%;
             padding-top: 20px;
         }
 
         p {
             margin: 1em;
+        }
+
+        div{
+            background-color: grey;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+            color: white;
+            font-size: 20px;
         }
     </style>
 </head>
@@ -75,6 +104,8 @@
         egestas bibendum et lobortis justo. In in nulla mattis magna mollis pulvinar quis eget lacus. Suspendisse eu justo
         ipsum. Fusce ornare ligula eu orci porttitor, imperdiet mattis nisl tincidunt.</p>
 </main>
-
+<div>
+    <p>Accept our cookie policy</p>
+</div>
 </body>
 </html>

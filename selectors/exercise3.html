@@ -14,18 +14,38 @@
             line-height: 50px; /* align text vertically (this works only for a single line of text) */
             text-align: center;
         }
+
+        div:nth-child(odd){
+            background-color: #ff3333;
+        }
+
+        div:nth-child(even){
+            background-color: #0033cc;
+        }
+
+        #first-small, #second-small, #third-small{
+            font-size: 0.7em;
+        }
+
+        #first-big, #second-big, #third-big{
+            font-size: 1.3em;
+        }
+        
+        #white{
+            color: white;
+        }
     </style>
 </head>
 <body>
-<div>1</div>
-<div>2</div>
-<div>3</div>
+<div id="first-small">1</div>
+<div id="second-small">2</div>
+<div id="third-small">3</div>
 <div>4</div>
 <div>5</div>
 <div>6</div>
-<div>7</div>
-<div>8</div>
-<div>9</div>
-<div>10</div>
+<div id="white">7</div>
+<div id="first-big">8</div>
+<div id="second-big">9</div>
+<div id="third-big">10</div>
 </body>
 </html>
